@@ -1,0 +1,23 @@
+package: 
+  name: avogadro
+  version: "v1.2.0"
+
+source:
+  git_url: https://github.com/cryos/avogadro
+
+requirements:
+  build:
+    - pkg-config
+    - qt 
+    - eigen
+    - openbabel
+    - sip
+
+  run:
+    - openbabel
+    - eigen
+    - qt
+
+about:
+  home: http://avogadro.cc
+  license: GPL-2.0
