@@ -1,0 +1,26 @@
+package:
+  name: projectq
+  version: "0.2.0"
+
+source:
+  git_url: https://github.com/ProjectQ-Framework/ProjectQ.git
+
+requirements:
+  build:
+    - python >=3.6.0
+    - setuptools
+    - numpy
+    - gcc
+    - pybind11
+
+  run:
+    - python
+
+test:
+  imports:
+    - projectq
+
+about:
+  home: https://projectq.ch
+  license: Apache
+  license_file: LICENSE
