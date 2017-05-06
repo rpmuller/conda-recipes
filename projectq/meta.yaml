@@ -1,20 +1,18 @@
 package:
   name: projectq
-  version: "0.2.0"
+  version: "v0.3.0"
 
 source:
   git_url: https://github.com/ProjectQ-Framework/ProjectQ.git
 
 requirements:
   build:
-    - python >=3.6.0
-    - setuptools
-    - numpy
+    - python 3.6.*
     - gcc
     - pybind11
 
   run:
-    - python
+    - python 3.6.*
 
 test:
   imports:
