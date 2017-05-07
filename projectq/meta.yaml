@@ -8,11 +8,17 @@ source:
 requirements:
   build:
     - python 3.6.*
+    - numpy
+    - matplotlib
     - gcc
     - pybind11
 
   run:
     - python 3.6.*
+    - numpy
+    - matplotlib
+    - gcc
+    - pybind11
 
 test:
   imports:
