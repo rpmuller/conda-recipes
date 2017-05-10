@@ -11,10 +11,11 @@ source:
 
 requirements:
   build:
-    - python 3.6.*
+    - python
     - numpy
     - swig
     - cmake
+    - gcc
   run:
     - python
     - numpy
